@@ -13,7 +13,7 @@ precisar e que o problema apareça no dashboard antes de aparecer no chamado.
 - 🏢 Analista de Infraestrutura na **Indorama Brasil** desde 2022
 - 🎓 Graduado em **Engenharia da Computação** pela Anhanguera Educacional
 - 🔍 Áreas de foco: **monitoramento**, **segurança de endpoints**, **continuidade de negócio** e **redes corporativas**
-- 🐳 Rodo um ambiente próprio em **Debian + Docker** com Zabbix, GLPI, Snipe-IT, Vaultwarden e Portainer
+- 🐳 Implantei e sustento a stack de **Debian + Docker** que roda Zabbix, GLPI, Snipe-IT, Vaultwarden e Portainer em produção
 - 🌱 Estudando **automação de rotinas de infraestrutura com PowerShell**
 
 <p align="center">
@@ -22,22 +22,26 @@ precisar e que o problema apareça no dashboard antes de aparecer no chamado.
 
 ---
 
-### 🐳 Ambiente self-hosted em Docker
+### 🐳 Serviços de operação em containers
 
-Host **Debian** com **Docker Compose** para consolidar em um só lugar serviços de operação
-que antes ficariam espalhados em VMs separadas:
+Consolidei em um host **Debian** com **Docker Compose** os serviços que a equipe de TI usa
+no dia a dia, no lugar de uma VM por aplicação. Menos sistema operacional para manter e
+atualizar, subida repetível e restauração mais simples quando precisa.
 
 | Serviço | Para que serve aqui |
 | --- | --- |
 | **Zabbix** | Monitoramento de rede e servidores, com alerta antes do chamado |
 | **GLPI** | Service desk e registro de chamados |
 | **Snipe-IT** | Inventário de equipamentos e ciclo de vida dos ativos |
-| **Vaultwarden** | Cofre de senhas self-hosted |
+| **Vaultwarden** | Cofre de senhas da equipe, em servidor próprio |
 | **Portainer** | Administração e visibilidade dos containers |
 
-<!-- Ajuste a linha abaixo para descrever exatamente o que você fez no seu ambiente. -->
+<!--
+  Ajuste a linha abaixo ao que você realmente configurou.
+  Evite detalhe interno: nomes de host, IPs, faixas de rede, versões e topologia.
+-->
 Cada serviço em container isolado, com volumes persistentes para dados e banco, rede
-interna dedicada entre aplicação e banco e as portas publicadas apenas onde é necessário.
+interna dedicada entre aplicação e banco e portas publicadas apenas onde é necessário.
 
 ---
 
