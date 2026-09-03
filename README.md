@@ -10,7 +10,7 @@ Meu trabalho é menos sobre escrever código e mais sobre manter tudo de pé: pa
 rotinas, eliminar configuração manual, garantir que o backup restaure quando alguém
 precisar e que o problema apareça no dashboard antes de aparecer no chamado.
 
-- 🏢 Analista de Infraestrutura na **Indorama Brasil** desde 2022
+- 🏢 Analista de Infraestrutura
 - 🎓 Graduado em **Engenharia da Computação** pela Anhanguera Educacional
 - 🔍 Áreas de foco: **monitoramento**, **segurança de endpoints**, **continuidade de negócio** e **redes corporativas**
 - 🐳 Implantei e sustento a stack de **Debian + Docker** que roda Zabbix, GLPI, Snipe-IT, Vaultwarden e Portainer em produção
