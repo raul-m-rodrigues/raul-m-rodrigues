@@ -13,11 +13,31 @@ precisar e que o problema apareça no dashboard antes de aparecer no chamado.
 - 🏢 Analista de Infraestrutura na **Indorama Brasil** desde 2022
 - 🎓 Graduado em **Engenharia da Computação** pela Anhanguera Educacional
 - 🔍 Áreas de foco: **monitoramento**, **segurança de endpoints**, **continuidade de negócio** e **redes corporativas**
+- 🐳 Rodo um ambiente próprio em **Debian + Docker** com Zabbix, GLPI, Snipe-IT, Vaultwarden e Portainer
 - 🌱 Estudando **automação de rotinas de infraestrutura com PowerShell**
 
 <p align="center">
   <img src="./assets/tecnologias.svg" width="100%" alt="Tecnologias" />
 </p>
+
+---
+
+### 🐳 Ambiente self-hosted em Docker
+
+Host **Debian** com **Docker Compose** para consolidar em um só lugar serviços de operação
+que antes ficariam espalhados em VMs separadas:
+
+| Serviço | Para que serve aqui |
+| --- | --- |
+| **Zabbix** | Monitoramento de rede e servidores, com alerta antes do chamado |
+| **GLPI** | Service desk e registro de chamados |
+| **Snipe-IT** | Inventário de equipamentos e ciclo de vida dos ativos |
+| **Vaultwarden** | Cofre de senhas self-hosted |
+| **Portainer** | Administração e visibilidade dos containers |
+
+<!-- Ajuste a linha abaixo para descrever exatamente o que você fez no seu ambiente. -->
+Cada serviço em container isolado, com volumes persistentes para dados e banco, rede
+interna dedicada entre aplicação e banco e as portas publicadas apenas onde é necessário.
 
 ---
 
@@ -39,6 +59,7 @@ precisar e que o problema apareça no dashboard antes de aparecer no chamado.
 
 <!--
   OPCIONAL: se estiver aberto a propostas, descomente a linha abaixo.
+
 ![Disponível](https://img.shields.io/badge/Aberto_a_novas_oportunidades-2EA043?style=for-the-badge)
 -->
 
