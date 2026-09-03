@@ -13,7 +13,7 @@ rotinas, eliminar configuração manual, garantir que o backup restaure quando a
 precisar e que o problema apareça no dashboard antes de aparecer no chamado.
 
 - 🏢 Analista de Infraestrutura na **Indorama Brasil** desde 2022
-- 🎓 Graduado **Engenharia da Computação** na Anhanguera Educacional
+- 🎓 Graduado em **Engenharia da Computação** pela Anhanguera Educacional
 - 🔍 Áreas de foco: **monitoramento**, **segurança de endpoints**, **continuidade de negócio** e **redes corporativas**
 - 🌱 Estudando **automação de rotinas de infraestrutura com PowerShell**
 
